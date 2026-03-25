@@ -320,7 +320,7 @@ class _EVHomeScreenState extends State<EVHomeScreen> {
                                     borderRadius: BorderRadius.circular(12),
                                   ),
                                   child: Icon(
-                                    car.bodyType == 'SUV' ? Icons.directions_suv : 
+                                    car.bodyType == 'SUV' ? Icons.electric_car : 
                                     car.bodyType == 'Sedan' ? Icons.directions_car : 
                                     Icons.airport_shuttle,
                                     size: 40,
